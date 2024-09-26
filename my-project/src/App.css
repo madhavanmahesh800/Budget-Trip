@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+footer{
+  position: relative;
+  display: grid;
+  grid-template-columns: 400px repeat(3,1fr);
+  gap:2rem;
+
+}
+
+footer .column .logo{
+  max-width :100px;
+  
+
+}
+footer .column p{
+  color:#ffffff;
+  margin-bottom: 2rem;
+
+}
+
+footer .column .socials{
+  display:flex;
+  align-items: center;
+  gap:1rem;
+}
+
+footer .column .socials a{
+
+  color:#ffffff;
+  
+
+
+}
+
+
+
+footer .column h4{
+  color: #ffffff;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+
+}
+footer .column > a {
+  display: block;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  transition: all 0.3s ease;
+
+}
+footer .column 
+footer .column >a:hover{
+  color:#000000;
+
+}
+.copyright{
+  max-width: full;
+  margin:auto;
+  padding:1rem;
+  color:#ffffff;
+  font-size: 0.8rem;
+  text-align: center;
+}
